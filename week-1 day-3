@@ -1,0 +1,33 @@
+Question  1
+    static void fun(int w, int x){
+        int y=0;
+        if(x%w==0 || w%x==0){
+            y=y+1;
+        }
+        else{
+            y=y+10;
+        }
+      System.out.println(y);
+  }
+
+
+Question 2
+     static int fun(int a,int b){
+        if(a!=0 && b!=0 && a+b>0){
+            return a+fun(a-2,b-2)+b;
+        }
+        return a^b;
+    }
+
+Question 3
+       static  void fun(){
+        int a=3,b=3;
+        a=b;
+        if((1^1)!=0){
+            a=1;
+        }
+        else{
+            b=2;
+        }
+        System.out.println(a+b);
+    }
